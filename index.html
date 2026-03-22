@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNV Harshith | Web Developer</title>
+    <meta name="description" content="TNV Harshith — Web Developer & CSE student at IIITDM Kurnool. Building high-performance web apps, Android, and efficient software systems.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- ── NAVBAR ── -->
+    <nav class="navbar" id="navbar">
+        <a href="#hero" class="nav-brand">TNV HARSHITH<span>.</span></a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#experience">Journey</a></li>
+            <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- ── HERO ── -->
+    <section id="hero" class="hero-section">
+        <!-- Giant watermark name -->
+        <div class="hero-watermark" aria-hidden="true">TNV HARSHITH</div>
+
+        <div class="hero-inner">
+            <!-- Left stat cards -->
+            <div class="hero-cards hero-cards-left">
+                <a href="https://github.com/Harshith0005" target="_blank" rel="noopener" class="stat-card reveal">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-label">GITHUB</span>
+                        <span class="stat-value">@Harshith0005</span>
+                    </div>
+                </a>
+                <a href="https://linkedin.com/in/harshithtnv" target="_blank" rel="noopener" class="stat-card reveal" style="animation-delay:0.1s">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-label">LINKEDIN</span>
+                        <span class="stat-value">harshithtnv</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Center: Photo + tagline -->
+            <div class="hero-center reveal">
+                <div class="hero-photo-wrapper">
+                    <img src="assets/profile1.jpg?v=2" alt="TNV Harshith" class="hero-photo" loading="eager">
+                    <div class="hero-photo-ring"></div>
+                </div>
+                <h1 class="hero-name">TNV Harshith</h1>
+                <p class="hero-role">Web Developer &amp; CSE Student</p>
+                <p class="hero-sub">4th-Year B.Tech CSE @ IIITDM Kurnool</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                    <a href="#contact" class="btn-ghost">Let's Talk</a>
+                </div>
+            </div>
+
+            <!-- Right stat cards -->
+            <div class="hero-cards hero-cards-right">
+                <div class="stat-card reveal" style="animation-delay:0.2s">
+                    <div class="stat-icon cert-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-label">CERTIFICATIONS</span>
+                        <span class="stat-value">10 Credentials</span>
+                    </div>
+                </div>
+                <a href="https://drive.google.com/file/d/1eV6yHbE4ZaKJoHEOodpqhrjNdPqBZzJX/view?usp=sharing" target="_blank" rel="noopener" class="stat-card reveal" style="animation-delay:0.3s">
+                    <div class="stat-icon resume-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-label">RESUME</span>
+                        <span class="stat-value">View / Download</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- scroll hint -->
+        <div class="scroll-hint" aria-hidden="true">
+            <span>SCROLL</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section id="about" class="section about-section">
+        <div class="section-header reveal">
+            <h2 class="section-title">ABOUT</h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-text reveal">
+                <p class="about-lead">I'm <strong>TNV Harshith</strong>, a passionate Web Developer and final-year Computer Science student at IIITDM Kurnool.</p>
+                <p>I specialise in building high-performance, beautiful web applications and scalable software systems. My foundation in Data Structures & Algorithms drives the way I engineer solutions — always optimising for speed, clarity, and maintainability.</p>
+                <p>From intuitive frontend experiences to AI-powered FinTech platforms, I love turning complex challenges into elegant products.</p>
+            </div>
+            <div class="about-stats reveal">
+                <div class="stat-block">
+                    <span class="stat-num">4+</span>
+                    <span class="stat-desc">Projects Shipped</span>
+                </div>
+                <div class="stat-block">
+                    <span class="stat-num">11</span>
+                    <span class="stat-desc">Licenses &amp; Certifications</span>
+                </div>
+                <div class="stat-block">
+                    <span class="stat-num">2026</span>
+                    <span class="stat-desc">Graduating</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section id="skills" class="section skills-section">
+        <div class="section-header reveal">
+            <h2 class="section-title">SKILLS</h2>
+        </div>
+
+        <div class="skills-row reveal">
+            <!-- Web -->
+            <div class="skill-chip">
+                <svg viewBox="0 0 32 32" fill="currentColor"><path d="M6 4l2.6 18.6L16 25l7.4-2.4L26 4H6zm15.6 5.6l-.2 2H12.4l.2 2h8.6l-.6 6.4-4.6 1.2-4.6-1.2-.3-3.4h2l.2 1.8 2.7.7 2.7-.7.3-3H11.8l-.6-6.6h9.6z"/></svg>
+                <span>HTML / CSS</span>
+            </div>
+            <div class="skill-chip">
+                <svg viewBox="0 0 32 32" fill="currentColor"><path d="M6 4l2.6 18.6L16 25l7.4-2.4L26 4H6zm13.4 5.2l-7 .1-.2 2 7 .1-.4 4.1-2.8.7-2.8-.7-.2-2.1H11l.4 4.5 4.6 1.2 4.6-1.2.6-8.7z"/></svg>
+                <span>JavaScript</span>
+            </div>
+            <div class="skill-chip">
+                <svg viewBox="0 0 32 32" fill="#61DAFB"><circle cx="16" cy="16" r="2.5"/><ellipse cx="16" cy="16" rx="12" ry="4.5" fill="none" stroke="currentColor" stroke-width="1.5"/><ellipse cx="16" cy="16" rx="12" ry="4.5" fill="none" stroke="currentColor" stroke-width="1.5" transform="rotate(60 16 16)"/><ellipse cx="16" cy="16" rx="12" ry="4.5" fill="none" stroke="currentColor" stroke-width="1.5" transform="rotate(120 16 16)"/></svg>
+                <span>React</span>
+            </div>
+            <div class="skill-chip">
+                <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 2C8.3 2 2 8.3 2 16s6.3 14 14 14 14-6.3 14-14S23.7 2 16 2zm-1 19.9l-5-5 1.4-1.4 3.6 3.6 7.6-7.6 1.4 1.4-9 9z"/></svg>
+                <span>Node.js</span>
+            </div>
+            <div class="skill-chip">
+                <svg viewBox="0 0 32 32" fill="currentColor"><path d="M9.4 4C6.4 4 4 6.4 4 9.4v13.2C4 25.6 6.4 28 9.4 28h3.8c-.2-.6-.2-1.3-.2-2H9.4C7.5 26 6 24.5 6 22.6V9.4C6 7.5 7.5 6 9.4 6h13.2C24.5 6 26 7.5 26 9.4v3.8c.7 0 1.4.1 2 .2V9.4C28 6.4 25.6 4 22.6 4H9.4zm4 6v2h5.9l-8.3 8.3 1.4 1.4L20.8 14V20h2v-10h-9.4z"/></svg>
+                <span>Kotlin</span>
+            </div>
+            <div class="skill-chip">
+                <svg viewBox="0 0 32 32" fill="currentColor"><path d="M15.9 3c-7.2 0-12 3.5-12 9 0 2.9 1.6 5.4 4.3 7.1L5.8 25l7.2-3.6c.9.1 1.9.2 2.9.2 7.2 0 12-3.5 12-9S23.1 3 15.9 3zM11 15l-3-4.5 4.5 1.5L16 9l.5 3 4.5-1.5-3 4.5L21 19l-4.5-1.5-.5 3.5-3-3-4.5 1.5 2-4.5z"/></svg>
+                <span>Python</span>
+            </div>
+            <div class="skill-chip">
+                <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 4C9.4 4 4 9.4 4 16s5.4 12 12 12 12-5.4 12-12S22.6 4 16 4zm0 4c2.9 0 5.5 1.1 7.6 2.9L7 24.6C5.1 22.5 4 19.9 4 17h.1C4.4 10.4 9.7 5.5 16 5.5V8zm0 16c-2.9 0-5.5-1.1-7.6-2.9l16.6-14.2C26.9 9.5 28 12.1 28 15c-.3 6.6-5.6 11.5-12 11.5V24z"/></svg>
+                <span>C++</span>
+            </div>
+            <div class="skill-chip">
+                <svg viewBox="0 0 32 32" fill="currentColor"><path d="M4 8h24v2H4zm0 7h24v2H4zm0 7h24v2H4z"/></svg>
+                <span>DSA</span>
+            </div>
+            <div class="skill-chip">
+                <svg viewBox="0 0 32 32" fill="currentColor"><path d="M5 5v22h22V5H5zm2 2h18v18H7V7zm2 2v14h14V9H9zm2 2h10v2H11zm0 4h10v2H11zm0 4h6v2h-6z"/></svg>
+                <span>Android Dev</span>
+            </div>
+            <div class="skill-chip">
+                <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 2l-2 4h-4l3 3-1 4 4-2 4 2-1-4 3-3h-4zm0 10c-4.4 0-8 3.6-8 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0 2c3.3 0 6 2.7 6 6s-2.7 6-6 6-6-2.7-6-6 2.7-6 6-6zm-2 2v8l6-4z"/></svg>
+                <span>OS &amp; Networks</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section id="projects" class="section projects-section">
+        <div class="section-header reveal">
+            <h2 class="section-title">PROJECTS</h2>
+            <p class="section-sub">Things I've built</p>
+        </div>
+        <div class="projects-grid">
+
+            <!-- KUBERA -->
+            <article class="project-card reveal">
+                <div class="project-card-top">
+                    <span class="project-badge">LATEST</span>
+                    <span class="project-type-tag">AI &amp; FinTech</span>
+                </div>
+                <h3 class="project-name">KUBERA</h3>
+                <p class="project-desc">An AI-powered personal finance platform for tracking expenses, managing investments, and analysing financial behaviour through an intuitive dashboard with actionable insights.</p>
+                <div class="project-tags">
+                    <span>Android</span>
+                    <span>Kotlin</span>
+                    <span>AI Analytics</span>
+                    <span>MySQL</span>
+                </div>
+            </article>
+
+            <!-- 3H-PSNet -->
+            <article class="project-card reveal">
+                <div class="project-card-top">
+                    <span class="project-badge">Research</span>
+                    <span class="project-type-tag">Computer Vision</span>
+                </div>
+                <h3 class="project-name">3H-PSNet</h3>
+                <p class="project-desc">Advanced 3D Semantic Segmentation using Hierarchical PointSAM and risk-aware distillation mechanisms for high-precision environmental mapping.</p>
+                <div class="project-tags">
+                    <span>PyTorch</span>
+                    <span>PointSAM</span>
+                    <span>Python</span>
+                </div>
+            </article>
+
+            <!-- IoT Plant -->
+            <article class="project-card reveal">
+                <div class="project-card-top">
+                    <span class="project-type-tag">IoT &amp; Hardware</span>
+                </div>
+                <h3 class="project-name">IoT Smart Plant Monitor</h3>
+                <p class="project-desc">Arduino/NodeMCU ecosystem integrating real-time soil and ambient sensors, autonomously reducing water usage by 40% through intelligent irrigation control.</p>
+                <div class="project-tags">
+                    <span>Arduino</span>
+                    <span>NodeMCU</span>
+                    <span>C++</span>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ── EXPERIENCE / JOURNEY ── -->
+    <section id="experience" class="section experience-section">
+        <div class="section-header reveal">
+            <h2 class="section-title">JOURNEY</h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2022 – 2026</span>
+                    <h3 class="timeline-title">B.Tech Computer Science &amp; Engineering</h3>
+                    <p class="timeline-org">IIITDM Kurnool</p>
+                    <p class="timeline-desc">Specialising in efficient algorithms, web technologies, and building highly scalable architectures. Active in research on 3D vision and machine learning.</p>
+                    <div class="timeline-tags">
+                        <span>DSA</span>
+                        <span>Web Dev</span>
+                        <span>Computer Vision</span>
+                        <span>Research</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Certifications in reverse-chronological order -->
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Nov 2025</span>
+                    <h3 class="timeline-title">Introduction to Generative AI and Agents</h3>
+                    <p class="timeline-org">Microsoft</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Nov 2025</span>
+                    <h3 class="timeline-title">Planetary Scale Earth Observation with Google Earth Engine</h3>
+                    <p class="timeline-org">Google · Credential ID: 20551355</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Oct 2025</span>
+                    <h3 class="timeline-title">Google Analytics Certification</h3>
+                    <p class="timeline-org">United Latino Students Association · Credential ID: 163660991</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Sep 2025</span>
+                    <h3 class="timeline-title">Introduction to Generative AI</h3>
+                    <p class="timeline-org">Google Cloud Skills Boost · Credential ID: 18371324</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Sep 2025</span>
+                    <h3 class="timeline-title">Introduction to Responsible AI</h3>
+                    <p class="timeline-org">Google Cloud Skills Boost · Credential ID: 18359296</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Sep 2025</span>
+                    <h3 class="timeline-title">Introduction to Large Language Models</h3>
+                    <p class="timeline-org">Google Cloud Skills Boost</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Feb 2025</span>
+                    <h3 class="timeline-title">Artificial Intelligence in Agriculture</h3>
+                    <p class="timeline-org">ICAR-NAARM (National Academy of Agricultural Research Management)</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Jan 2025</span>
+                    <h3 class="timeline-title">Google Cloud: MLOps for Generative AI</h3>
+                    <p class="timeline-org">Google Cloud Skills Boost</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Nov 2024</span>
+                    <h3 class="timeline-title">7th Edition of Indo-Dutch CyberSecurity School</h3>
+                    <p class="timeline-org">HCSS — The Hague Centre for Strategic Studies, The Netherlands</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Sep 2024</span>
+                    <h3 class="timeline-title">AIML for Geodata Analysis</h3>
+                    <p class="timeline-org">IIRS / ISRO — Indian Institute of Remote Sensing · Credential ID: 2024234243372</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2023</span>
+                    <h3 class="timeline-title">ICAR-NAARM</h3>
+                    <p class="timeline-org">National Academy of Agricultural Research Management — Certification</p>
+                    <p class="timeline-desc">Certification in applied data science and AI for agriculture research and decision systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact" class="section contact-section reveal">
+        <h2 class="impact-header">CONTACT</h2>
+
+        <div class="social-squares">
+            <a href="https://github.com/Harshith0005" target="_blank" rel="noopener" class="social-square">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                <span>GITHUB</span>
+            </a>
+            <a href="https://linkedin.com/in/harshithtnv" target="_blank" rel="noopener" class="social-square">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                <span>LINKEDIN</span>
+            </a>
+            <a href="mailto:tnvharshith@gmail.com" class="social-square">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <span>EMAIL</span>
+            </a>
+        </div>
+
+        <div class="contact-grid-ref">
+            <div class="contact-card-custom">
+                <h3>Send a Message</h3>
+                <p>Like my profile or just want to collaborate? My inbox is always open.</p>
+                <form class="contact-form" action="#" method="POST">
+                    <div class="input-wrapper">
+                        <label>Name</label>
+                        <input type="text" placeholder="Your name" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <label>Email</label>
+                        <input type="email" placeholder="Your email address" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <label>Message</label>
+                        <textarea placeholder="Tell me about your project or idea..." rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-solid">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-card-custom get-in-touch-card">
+                <h3>GET IN TOUCH</h3>
+                <div class="touch-item">
+                    <span class="touch-label">EMAIL</span>
+                    <a href="mailto:tnvharshith@gmail.com" class="touch-value">tnvharshith@gmail.com</a>
+                </div>
+                <div class="availability">
+                    <span class="avail-dot"></span>
+                    <span>Available for opportunities</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-name">TNV HARSHITH</div>
+                <p class="footer-tagline">Web Developer · CSE · IIITDM Kurnool</p>
+            </div>
+            <div class="footer-nav">
+                <h4>NAVIGATE</h4>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Journey</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-social">
+                <h4>CONNECT</h4>
+                <a href="https://github.com/Harshith0005" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://linkedin.com/in/harshithtnv" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="mailto:tnvharshith@gmail.com">Email</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 TNV Harshith. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
